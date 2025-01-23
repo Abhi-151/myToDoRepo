@@ -143,3 +143,7 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
 }
+
+USE_TZ = False
+TIME_ZONE = 'Asia/Kolkata'
+USE_I18N= True
